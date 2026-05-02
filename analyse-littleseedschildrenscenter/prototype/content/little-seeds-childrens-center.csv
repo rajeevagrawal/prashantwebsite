@@ -1,0 +1,62 @@
+key,value
+page_title,Our Schools — Little Seeds & Peter Pan Schools
+nav_active_home,
+nav_active_about,
+nav_active_schools,active
+nav_active_curriculum,
+nav_active_blog,
+hero_label,"🪄 Alameda, CA"
+hero_title,Little Seeds Children's Center
+hero_subtitle,"Our campus on Santa Clara Avenue is a warm, light-filled environment designed to spark wonder at every turn. From our mud kitchen in the garden to our art studio stocked with real materials, every corner invites exploration."
+hero_address,"📍 2055 Santa Clara Ave, Alameda, CA 94501"
+hero_ages,👶 Ages 12 months – 5 years
+hero_hours,"🕗 Open Monday – Friday, 7:30 AM – 5:30 PM"
+hero_director,👩‍💼 Director: Sarah Hallford
+hero_phone,📞 (510) 865-5901
+hero_email,sarah@peterpanschools.com
+hero_status,Waitlist Open
+hero_status_type,waitlist
+hero_image,gallery/lscc_b49ada_82070da890d54.jpg
+programs_label,🪄 Programs at This Location
+programs_title,Programs for ages 12mo – 5 years
+program_1_age,12 – 18 months
+program_1_title,Infant Nest
+program_1_text,"A nurturing, low-ratio environment where the youngest learners develop trust, sensory awareness, and early communication in a home-like setting."
+program_1_tag1,1:3 ratio
+program_1_tag2,Full day
+program_1_emoji,👶
+program_1_bg,--color-bg-cream
+program_2_age,18mo – 3 years
+program_2_title,Toddler Studio
+program_2_text,"Toddlers are naturally driven to explore and assert independence. Our studio gives them safe boundaries to climb, create, and communicate."
+program_2_tag1,1:4 ratio
+program_2_tag2,Half & Full day
+program_2_emoji,🧒
+program_2_bg,--color-bg-cream
+program_3_age,3 – 4 years
+program_3_title,Preschool Atelier
+program_3_text,"Project-based learning inspired by Reggio Emilia, where children investigate real questions through art, science, storytelling, and dramatic play."
+program_3_tag1,1:6 ratio
+program_3_tag2,Half & Full day
+program_3_emoji,🎨
+program_3_bg,--color-bg-cream
+program_4_age,4 – 5 years
+program_4_title,Pre-K Lab
+program_4_text,"Kindergarten-readiness skills woven into rich play experiences. Children build literacy, numeracy, and executive function while having the time of their lives."
+program_4_tag1,1:8 ratio
+program_4_tag2,Full day
+program_4_emoji,🎒
+program_4_bg,--color-bg-cream
+gallery_label,🪄 Photo Gallery
+gallery_title,Life at Our Schools
+map_address,"2055 Santa Clara Ave, Alameda, CA 94501"
+map_placeholder_text,"📍 Google Map — 2055 Santa Clara Ave, Alameda, CA 94501"
+cta_band_title,Ready to visit?
+cta_band_subtitle,Tours fill up quickly — reserve your spot today and see why Alameda families love Little Seeds & Peter Pan Schools.
+photo_1,gallery/lscc_b49ada_b95d83e225c24.jpg
+photo_2,gallery/lscc_b49ada_a10c80fb489b4.jpg
+photo_3,gallery/lscc_b49ada_2f87475869524.jpg
+photo_4,gallery/lscc_b49ada_a837a29363bb4.jpg
+photo_5,gallery/lscc_b49ada_f592762862f84.jpg
+photo_6,gallery/lscc_b49ada_510d6f04decd4.jpg
+hero_phone_raw,5108655901

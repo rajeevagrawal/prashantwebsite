@@ -1,0 +1,121 @@
+key,value
+page_title,Little Seeds & Peter Pan Schools — Home
+nav_active_home,active
+nav_active_about,
+nav_active_schools,
+nav_active_curriculum,
+nav_active_blog,
+hero_label,🪄 Nurturing Minds Since 2003
+hero_title,Where little minds bloom every single day
+hero_subtitle,Play-based learning for ages 6 weeks – 5 years at our 3 Bay Area locations.
+hero_badge_rating,⭐ 4.9 Rating · 500+ Families
+hero_badge_enrollment,🌱 Open Enrollment 2025–26
+hero_social_proof,+500 families trust us
+hero_image,
+trust_1_icon,🛡
+trust_1_title,Ages 6wk – 5yrs
+trust_1_text,All early childhood stages
+trust_2_icon,🎓
+trust_2_title,Certified Educators
+trust_2_text,100% degreed staff
+trust_3_icon,🎨
+trust_3_title,Play-Based
+trust_3_text,Reggio Emilia inspired
+trust_4_icon,🌿
+trust_4_title,Outdoor Learning
+trust_4_text,Daily outdoor play time
+trust_5_icon,📱
+trust_5_title,Daily App Updates
+trust_5_text,Stay connected always
+programs_label,🪄 Our Programs
+programs_title,Programs that nurture joyful growth
+programs_subtitle,Play-based learning designed for every stage of early childhood.
+program_1_age,Ages 6 weeks – 12 months
+program_1_title,Infant Care
+program_1_text,"Responsive 1:1 care in small, nurturing pods with certified infant specialists."
+program_1_tag1,Safety
+program_1_tag2,Play
+program_1_emoji,👶
+program_1_bg,--color-primary-light
+program_2_age,Ages 1 – 2 years
+program_2_title,Toddler Discovery
+program_2_text,"Hands-on play builds motor skills, language, and social-emotional foundations."
+program_2_tag1,Explore
+program_2_tag2,Move
+program_2_emoji,🧒
+program_2_bg,--color-secondary-light
+program_3_age,Ages 2 – 4 years
+program_3_title,Preschool Explorations
+program_3_text,"Creative arts, science, and social growth through child-led investigation."
+program_3_tag1,Art
+program_3_tag2,Science
+program_3_emoji,🖌️
+program_3_bg,--color-tertiary-light
+program_4_age,Ages 4 – 5 years
+program_4_title,Pre-Kindergarten
+program_4_text,"Kindergarten readiness with emerging literacy, math, and critical thinking."
+program_4_tag1,Literacy
+program_4_tag2,Math
+program_4_emoji,📚
+program_4_bg,--color-accent-yellow
+why_label,🪄 Why We're Different
+why_title,A school that feels like home
+why_subtitle,"Low teacher-to-child ratios, rich play environments, and a curriculum rooted in child development research — all in a space where every child is known by name."
+why_image,gallery/lscc_b49ada_e027a14476094.jpg
+checklist_1,Reggio-inspired learning environments
+checklist_2,Daily outdoor play & nature exploration
+checklist_3,Parent communication app with daily updates
+checklist_4,"Nutritious, freshly prepared meals on-site"
+checklist_5,Bilingual enrichment activities
+stat_badge_1_icon,👶
+stat_badge_1_value,1:3
+stat_badge_1_label,Infant Ratio
+stat_badge_2_icon,🎓
+stat_badge_2_value,100%
+stat_badge_2_label,Certified Staff
+stats_label,Our Impact
+stats_title,Numbers that speak for themselves
+stat_1_number,500+
+stat_1_label,Families Enrolled
+stat_2_number,3
+stat_2_label,Bay Area Locations
+stat_3_number,20+
+stat_3_label,Years of Excellence
+stat_4_number,4.9⭐
+stat_4_label,Google Rating
+locations_label,🪄 Three Bay Area Locations
+locations_title,Find the school nearest you
+testimonials_label,🪄 What Families Say
+testimonials_title,Trusted by families across the Bay Area
+testimonial_1_quote,"""Little Seeds changed how I think about childcare. It's truly a second home for our daughter."""
+testimonial_1_name,Sarah M.
+testimonial_1_meta,"Parent of Emma, age 3"
+testimonial_1_avatar,👩
+testimonial_2_quote,"""My son wakes up asking to go to school every morning. That says everything about what this place means to him."""
+testimonial_2_name,David K.
+testimonial_2_meta,"Parent of Arjun, age 2"
+testimonial_2_avatar,👨
+testimonial_3_quote,"""The teachers know each child deeply. We've never felt like just a number here — it's a true community."""
+testimonial_3_name,Jennifer L.
+testimonial_3_meta,"Parent of Theo, age 4"
+testimonial_3_avatar,👩
+blog_label,🪄 From Our Blog
+blog_title,Resources for families
+blog_1_category,Curriculum
+blog_1_category_class,tag--orange
+blog_1_title,How Play-Based Learning Prepares Kids for Kindergarten
+blog_1_meta,"May 1, 2025 · 4 min read"
+blog_1_emoji,📝
+blog_1_bg,--color-primary-light
+blog_2_category,Development
+blog_2_category_class,tag--blue
+blog_2_title,5 Signs Your Toddler is Ready for Preschool
+blog_2_meta,"Apr 22, 2025 · 3 min read"
+blog_2_emoji,👶
+blog_2_bg,--color-secondary-light
+blog_3_category,Tips
+blog_3_category_class,tag--teal
+blog_3_title,Preparing Your Child for the First Week of School
+blog_3_meta,"Apr 10, 2025 · 5 min read"
+blog_3_emoji,🎒
+blog_3_bg,--color-tertiary-light

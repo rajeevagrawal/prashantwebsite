@@ -4,8 +4,7 @@ templates/
 CLAUDE.md
 supabase-setup.sql
 
-# Content source (CSVs + Markdown) — kept locally for editing
-content/*.csv
+# Content source (Markdown blog posts) — kept locally for editing
 content/blog/
 
 # ── Credentials ───────────────────────────────────────────────

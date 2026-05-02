@@ -1,0 +1,62 @@
+key,value
+page_title,Peter Pan Academy — Little Seeds & Peter Pan Schools
+nav_active_home,
+nav_active_about,
+nav_active_schools,active
+nav_active_curriculum,
+nav_active_blog,
+hero_label,"🪄 Alameda, CA"
+hero_title,Peter Pan Academy
+hero_subtitle,"Peter Pan Academy offers a nurturing preschool experience rooted in play-based learning for children ages 2–5. Our warm, dedicated educators create a joyful space where every child feels seen, heard, and celebrated."
+hero_address,"📍 3171 Mecartney Road, Alameda, CA 94502"
+hero_ages,👶 6 months – 5 years
+hero_hours,"🕗 Open Monday – Friday, 7:30 AM – 5:30 PM"
+hero_director,👩‍💼 Director: Contact Us
+hero_phone,📞 (510) 523 4080
+hero_email,theresa@peterpanschools.com
+hero_status,✓ Enrolling Now
+hero_status_type,open
+hero_image,gallery/ppa_b49ada_5a017f676d254.jpg
+programs_label,🪄 Programs at This Location
+programs_title,Programs for ages 2 – 5 years
+program_1_age,2 – 3 years
+program_1_title,Toddler Studio
+program_1_text,"Toddlers explore independence through hands-on play, creative arts, and guided social interactions in small nurturing groups."
+program_1_tag1,1:4 ratio
+program_1_tag2,Half & Full day
+program_1_emoji,🧒
+program_1_bg,--color-bg-cream
+program_2_age,3 – 4 years
+program_2_title,Preschool Atelier
+program_2_text,"Project-based learning inspired by Reggio Emilia, where children investigate real questions through art, science, and storytelling."
+program_2_tag1,1:6 ratio
+program_2_tag2,Half & Full day
+program_2_emoji,🎨
+program_2_bg,--color-bg-cream
+program_3_age,4 – 5 years
+program_3_title,Pre-K Lab
+program_3_text,"Kindergarten-readiness skills woven into rich play experiences — literacy, numeracy, and executive function through joyful learning."
+program_3_tag1,1:8 ratio
+program_3_tag2,Full day
+program_3_emoji,🎒
+program_3_bg,--color-bg-cream
+program_4_age,4 – 5 years
+program_4_title,After-School Care
+program_4_text,"Extended care available for enrolled families. Children enjoy guided activities, outdoor play, and a healthy snack in a relaxed afternoon environment."
+program_4_tag1,Flexible
+program_4_tag2,Drop-in available
+program_4_emoji,🌅
+program_4_bg,--color-bg-cream
+gallery_label,🪄 Photo Gallery
+gallery_title,Life at Our Schools
+map_address,"3171 Mecartney Road, Alameda, CA 94502"
+map_placeholder_text,"📍 Google Map — 3171 Mecartney Road, Alameda, CA 94502"
+cta_band_title,Ready to visit Peter Pan Academy?
+cta_band_subtitle,Tours fill up quickly — reserve your spot today and see why Alameda families love Little Seeds & Peter Pan Schools.
+photo_1,gallery/ppa_b49ada_bff349bb3afb4.jpg
+photo_2,gallery/ppa_b49ada_999e37fbf4274.jpg
+photo_3,gallery/ppa_b49ada_0d3e9e121e4e4.jpg
+photo_4,gallery/ppa_b49ada_ac6f424e7bf54.jpg
+photo_5,gallery/ppa_b49ada_80826ec855b44.jpg
+photo_6,gallery/ppa_b49ada_770e5e45c7074.jpg
+hero_phone_raw,5105234080
