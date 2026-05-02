@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photo Gallery — Little Seeds & Peter Pan Schools</title>
+  <link rel="stylesheet" href="theme.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo"><span class="nav__logo-emoji">🌱</span>
+      <span class="nav__logo-text">
+        <span class="nav__logo-line1">Little Seeds</span>
+        <span class="nav__logo-line2">&amp; Peter Pan Schools</span>
+      </span></a>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li class="nav__dropdown">
+        <a href="#" class="nav__dropdown-toggle">Our Schools <span class="nav__chevron">▾</span></a>
+        <ul class="nav__dropdown-menu">
+          <li><a href="little-seeds-childrens-center.html">Little Seeds Children's Center</a></li>
+          <li><a href="peter-pan-academy.html">Peter Pan Academy</a></li>
+          <li><a href="peter-pan-preschool.html">Peter Pan Preschool</a></li>
+        </ul>
+      </li>
+      <li><a href="curriculum.html">Curriculum</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="gallery.html">Photo Gallery</a></li>
+      <li><a href="forms.html">Parent Resources</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="contact.html" class="btn btn-primary btn-sm">Book a Tour →</a>
+    </div>
+  </div>
+</nav>
+<!-- Notice Board -->
+<div class="notice-board">
+  <div class="notice-board__inner">
+    <div class="notice-card">
+      <div class="notice-card__text">
+        <strong>🌱 Now Enrolling</strong>
+        Fall 2025 spots filling fast — all 3 locations
+      </div>
+    </div>
+    <div class="notice-card">
+      <div class="notice-card__text">
+        <strong>🎉 Open House</strong>
+        May 15th · Come see our campuses!
+      </div>
+    </div>
+    <div class="notice-card">
+      <div class="notice-card__text">
+        <strong>⭐ 4.9 / 5 Rating</strong>
+        Trusted by 500+ Bay Area families
+      </div>
+    </div>
+    <div class="notice-card">
+      <div class="notice-card__text">
+        <strong>📞 Questions?</strong>
+        (510) 865-5901 · Mon–Fri 7 AM–6 PM
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Hero -->
+<section class="page-hero">
+  <div class="container text-center">
+    <span class="label-pill">🪄 Our Photo Gallery</span>
+    <h1 class="display">A glimpse into our world</h1>
+    <p class="body-lg">Real moments from our classrooms, playgrounds, and everyday adventures across all three campuses.</p>
+  </div>
+</section>
+
+<!-- Gallery Tabs -->
+<section class="section" style="background:var(--color-bg-white);">
+  <div class="container">
+    <div class="filter-tabs" style="margin-bottom:var(--space-10);">
+      <button class="filter-tab active" onclick="switchTab('ppa', this)">Peter Pan Academy</button>
+      <button class="filter-tab" onclick="switchTab('lscc', this)">Little Seeds Children's Center</button>
+      <button class="filter-tab" onclick="switchTab('ppp', this)">Peter Pan Preschool</button>
+    </div>
+
+    <div id="gallery-label-ppa" class="gallery-section-label">🎨 Invitation to Create — Process Art</div>
+    <div id="gallery-label-lscc" class="gallery-section-label" style="display:none;">🌱 Little Seeds — Learning Environments</div>
+    <div id="gallery-label-ppp" class="gallery-section-label" style="display:none;">🎭 Invitation to Play — Our Environments</div>
+
+    <div class="gallery-grid" id="tab-ppa">
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_bff349bb3afb4.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_bff349bb3afb4.jpg" alt="ppa photo 1" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_999e37fbf4274.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_999e37fbf4274.jpg" alt="ppa photo 2" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_0d3e9e121e4e4.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_0d3e9e121e4e4.jpg" alt="ppa photo 3" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_ac6f424e7bf54.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_ac6f424e7bf54.jpg" alt="ppa photo 4" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_80826ec855b44.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_80826ec855b44.jpg" alt="ppa photo 5" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_770e5e45c7074.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_770e5e45c7074.jpg" alt="ppa photo 6" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_26e06b24b3274.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_26e06b24b3274.jpg" alt="ppa photo 7" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_7655a3a09a2a4.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_7655a3a09a2a4.jpg" alt="ppa photo 8" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_5a017f676d254.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_5a017f676d254.jpg" alt="ppa photo 9" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_a0db8d5948cb4.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_a0db8d5948cb4.jpg" alt="ppa photo 10" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_78fe72476d614.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_78fe72476d614.jpg" alt="ppa photo 11" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_de8a6477f1114.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_de8a6477f1114.jpg" alt="ppa photo 12" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_4f27df2c376b4.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_4f27df2c376b4.jpg" alt="ppa photo 13" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_0820032f40864.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_0820032f40864.jpg" alt="ppa photo 14" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_63ca01ccad144.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_63ca01ccad144.jpg" alt="ppa photo 15" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_4deed4e23a704.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_4deed4e23a704.jpg" alt="ppa photo 16" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_83c86ca154f44.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_83c86ca154f44.jpg" alt="ppa photo 17" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_b0879a8d84034.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_b0879a8d84034.jpg" alt="ppa photo 18" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_b0d8aa2ea67c4.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_b0d8aa2ea67c4.jpg" alt="ppa photo 19" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_e0c6701815764.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_e0c6701815764.jpg" alt="ppa photo 20" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_fe88b71d91a74.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_fe88b71d91a74.jpg" alt="ppa photo 21" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_86f0a4f736ee4.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_86f0a4f736ee4.jpg" alt="ppa photo 22" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_b0b8180d29264.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_b0b8180d29264.jpg" alt="ppa photo 23" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_e5989826e5b34.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_e5989826e5b34.jpg" alt="ppa photo 24" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppa_b49ada_68dac72aed254.jpg')">
+        <img src="content/images/gallery/ppa_b49ada_68dac72aed254.jpg" alt="ppa photo 25" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+    </div>
+    <div class="gallery-grid" id="tab-lscc">
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_b95d83e225c24.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_b95d83e225c24.jpg" alt="lscc photo 1" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_a10c80fb489b4.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_a10c80fb489b4.jpg" alt="lscc photo 2" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_2f87475869524.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_2f87475869524.jpg" alt="lscc photo 3" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_a837a29363bb4.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_a837a29363bb4.jpg" alt="lscc photo 4" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_f592762862f84.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_f592762862f84.jpg" alt="lscc photo 5" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_510d6f04decd4.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_510d6f04decd4.jpg" alt="lscc photo 6" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_c6dd24e5b31c4.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_c6dd24e5b31c4.jpg" alt="lscc photo 7" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_6110279eb4084.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_6110279eb4084.jpg" alt="lscc photo 8" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_fbe4e39e2fcb4.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_fbe4e39e2fcb4.jpg" alt="lscc photo 9" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_3f7fc888d15c4.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_3f7fc888d15c4.jpg" alt="lscc photo 10" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_b2b63818afc14.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_b2b63818afc14.jpg" alt="lscc photo 11" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_e027a14476094.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_e027a14476094.jpg" alt="lscc photo 12" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_6e1a714065b54.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_6e1a714065b54.jpg" alt="lscc photo 13" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_2842cb6b8dc14.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_2842cb6b8dc14.jpg" alt="lscc photo 14" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_96267b50b39e4.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_96267b50b39e4.jpg" alt="lscc photo 15" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_9c3a6f6b89564.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_9c3a6f6b89564.jpg" alt="lscc photo 16" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_376ba57ec51d4.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_376ba57ec51d4.jpg" alt="lscc photo 17" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_329554d6ee8b4.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_329554d6ee8b4.jpg" alt="lscc photo 18" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_1585228d3abe4.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_1585228d3abe4.jpg" alt="lscc photo 19" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_679f8028bb404.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_679f8028bb404.jpg" alt="lscc photo 20" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_82070da890d54.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_82070da890d54.jpg" alt="lscc photo 21" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_17805a8c7a274.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_17805a8c7a274.jpg" alt="lscc photo 22" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_b49ada_1b2db2d886154.jpg')">
+        <img src="content/images/gallery/lscc_b49ada_1b2db2d886154.jpg" alt="lscc photo 23" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_df1e3c_d88daa3bb2794.jpg')">
+        <img src="content/images/gallery/lscc_df1e3c_d88daa3bb2794.jpg" alt="lscc photo 24" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/lscc_df1e3c_16ee760b916f4.jpg')">
+        <img src="content/images/gallery/lscc_df1e3c_16ee760b916f4.jpg" alt="lscc photo 25" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+    </div>
+    <div class="gallery-grid" id="tab-ppp">
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_6d3a86b8a1164.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_6d3a86b8a1164.jpg" alt="ppp photo 1" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_035c96a148ed4.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_035c96a148ed4.jpg" alt="ppp photo 2" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_775c894461e34.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_775c894461e34.jpg" alt="ppp photo 3" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_318ba5aa0e844.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_318ba5aa0e844.jpg" alt="ppp photo 4" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_d03a4c6528ed4.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_d03a4c6528ed4.jpg" alt="ppp photo 5" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_df1e3c_8b1841e1f2004.jpg')">
+        <img src="content/images/gallery/ppp_df1e3c_8b1841e1f2004.jpg" alt="ppp photo 6" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_df1e3c_2802bba7ac094.jpg')">
+        <img src="content/images/gallery/ppp_df1e3c_2802bba7ac094.jpg" alt="ppp photo 7" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_df1e3c_691b3b56a1dc4.jpg')">
+        <img src="content/images/gallery/ppp_df1e3c_691b3b56a1dc4.jpg" alt="ppp photo 8" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_df1e3c_9eaad305854c4.jpg')">
+        <img src="content/images/gallery/ppp_df1e3c_9eaad305854c4.jpg" alt="ppp photo 9" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_df1e3c_dbc3138439a04.jpg')">
+        <img src="content/images/gallery/ppp_df1e3c_dbc3138439a04.jpg" alt="ppp photo 10" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_107ae4ab44514.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_107ae4ab44514.jpg" alt="ppp photo 11" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_5634ae35415b4.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_5634ae35415b4.jpg" alt="ppp photo 12" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_c3485a624d024.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_c3485a624d024.jpg" alt="ppp photo 13" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_be3a6fc271ab4.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_be3a6fc271ab4.jpg" alt="ppp photo 14" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_1665aa0d6bf14.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_1665aa0d6bf14.jpg" alt="ppp photo 15" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_ab17ffcca09c4.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_ab17ffcca09c4.jpg" alt="ppp photo 16" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_09f32c6df43d4.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_09f32c6df43d4.jpg" alt="ppp photo 17" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_f008e99cccea4.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_f008e99cccea4.jpg" alt="ppp photo 18" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_48677fb9545f4.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_48677fb9545f4.jpg" alt="ppp photo 19" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_9922a1d612cd4.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_9922a1d612cd4.jpg" alt="ppp photo 20" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_1b6c8c63e7a44.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_1b6c8c63e7a44.jpg" alt="ppp photo 21" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_89d7ae2fb59c4.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_89d7ae2fb59c4.jpg" alt="ppp photo 22" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_0c339a5dc87c4.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_0c339a5dc87c4.jpg" alt="ppp photo 23" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+      <div class="gallery-item" onclick="openLightbox('content/images/gallery/ppp_b49ada_c82a3d30c0b04.jpg')">
+        <img src="content/images/gallery/ppp_b49ada_c82a3d30c0b04.jpg" alt="ppp photo 24" loading="lazy" />
+        <div class="gallery-item__overlay">🔍</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox__close" onclick="closeLightbox()">✕</button>
+  <button class="lightbox__prev" onclick="event.stopPropagation();lightboxNav(-1)">‹</button>
+  <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+  <button class="lightbox__next" onclick="event.stopPropagation();lightboxNav(1)">›</button>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">🌱 <span>Little Seeds & Peter Pan Schools</span></div>
+        <p class="footer__tagline">Play-based learning for every little seed to bloom — across all three Little Seeds & Peter Pan Schools campuses. Bay Area's most trusted early childhood centers.</p>
+        <div class="footer__locations">
+          <span>📍 📍 Little Seeds Children's Center, Alameda</span>
+          <span>📍 📍 Peter Pan Academy, Alameda</span>
+          <span>📍 📍 Peter Pan Preschool, Alameda</span>
+        </div>
+      </div>
+      <div>
+        <div class="footer__col-title">Quick Links</div>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="little-seeds-childrens-center.html">Our Schools</a></li>
+          <li><a href="curriculum.html">Curriculum</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__col-title">For Families</div>
+        <ul class="footer__links">
+          <li><a href="#">Tuition Rates</a></li>
+          <li><a href="blog.html">Blog</a></li>
+      <li><a href="gallery.html">Photo Gallery</a></li>
+      <li><a href="forms.html">Parent Resources</a></li>
+          <li><a href="forms.html">Forms & Documents</a></li>
+          <li><a href="#">Waitlist</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__col-title">Say Hello</div>
+        <div class="footer__contact">
+          <a href="mailto:sarah@peterpanschools.com">📧 sarah@peterpanschools.com</a>
+          <a href="tel:5108655901">📞 (510) 865-5901</a>
+          <span>📍 2055 Santa Clara Ave, Alameda, CA 94501</span>
+        </div>
+        <div class="footer__socials">
+          <a href="#" class="footer__social-icon">f</a>
+          <a href="#" class="footer__social-icon">📸</a>
+          <a href="#" class="footer__social-icon">in</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2025 Little Seeds & Peter Pan Schools. All rights reserved.</span>
+      <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ── Tab switching ─────────────────────────────────────────────────────────────
+function switchTab(school, btn) {
+  ['ppa','lscc','ppp'].forEach(s => {
+    document.getElementById('tab-' + s).style.display = s === school ? 'grid' : 'none';
+    document.getElementById('gallery-label-' + s).style.display = s === school ? 'block' : 'none';
+  });
+  document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentSchool = school;
+  currentIdx = 0;
+}
+
+// ── Lightbox ──────────────────────────────────────────────────────────────────
+let currentSchool = 'ppa';
+let currentIdx    = 0;
+
+function openLightbox(src) {
+  const items = document.querySelectorAll('#tab-' + currentSchool + ' .gallery-item img');
+  items.forEach((img, i) => { if (img.src.endsWith(src.split('/').pop())) currentIdx = i; });
+  document.getElementById('lightboxImg').src = src;
+  document.getElementById('lightbox').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function lightboxNav(dir) {
+  const items = document.querySelectorAll('#tab-' + currentSchool + ' .gallery-item img');
+  currentIdx = (currentIdx + dir + items.length) % items.length;
+  document.getElementById('lightboxImg').src = items[currentIdx].src;
+}
+
+document.addEventListener('keydown', e => {
+  if (!document.getElementById('lightbox').classList.contains('active')) return;
+  if (e.key === 'Escape') closeLightbox();
+  if (e.key === 'ArrowRight') lightboxNav(1);
+  if (e.key === 'ArrowLeft')  lightboxNav(-1);
+});
+
+// Hide lscc and ppp grids on load
+document.getElementById('tab-lscc').style.display = 'none';
+document.getElementById('tab-ppp').style.display  = 'none';
+</script>
+
+</body>
+</html>

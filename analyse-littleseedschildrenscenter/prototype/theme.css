@@ -88,9 +88,9 @@
 
   /* ── LAYOUT ─────────────────────────────────────────────── */
 
-  --container-max:  1140px;
+  --container-max:  1220px;
   --container-pad:  var(--space-6);
-  --nav-height:     72px;
+  --nav-height:     68px;
   --grid-gap:       var(--space-6);
 
   /* ── BORDER RADIUS ───────────────────────────────────────── */

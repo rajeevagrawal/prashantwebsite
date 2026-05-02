@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Little Seeds &amp; Peter Pan Schools — Home</title>
+  <title>Little Seeds & Peter Pan Schools — Home</title>
   <link rel="stylesheet" href="theme.css">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,44 +12,79 @@
 <!-- NAV -->
 <nav class="nav">
   <div class="container nav__inner">
-    <a href="index.html" class="nav__logo">🌱 <span>Little Seeds &amp; Peter Pan Schools</span></a>
+    <a href="index.html" class="nav__logo"><span class="nav__logo-emoji">🌱</span>
+      <span class="nav__logo-text">
+        <span class="nav__logo-line1">Little Seeds</span>
+        <span class="nav__logo-line2">&amp; Peter Pan Schools</span>
+      </span></a>
     <ul class="nav__links">
       <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="school.html">Our Schools</a></li>
-      <li><a href="curriculum.html">Curriculum</a></li>
-      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html" class="">About Us</a></li>
+      <li class="nav__dropdown">
+        <a href="#" class=" nav__dropdown-toggle">Our Schools <span class="nav__chevron">▾</span></a>
+        <ul class="nav__dropdown-menu">
+          <li><a href="little-seeds-childrens-center.html">Little Seeds Children's Center</a></li>
+          <li><a href="peter-pan-academy.html">Peter Pan Academy</a></li>
+          <li><a href="peter-pan-preschool.html">Peter Pan Preschool</a></li>
+        </ul>
+      </li>
+      <li><a href="curriculum.html" class="">Curriculum</a></li>
+      <li><a href="blog.html" class="">Blog</a></li>
+      <li><a href="gallery.html">Photo Gallery</a></li>
+      <li><a href="forms.html">Parent Resources</a></li>
     </ul>
     <div class="nav__cta">
       <a href="contact.html" class="btn btn-primary btn-sm">Book a Tour →</a>
     </div>
   </div>
 </nav>
+<!-- Notice Board -->
+<div class="notice-board">
+  <div class="notice-board__inner">
+    <div class="notice-card">
+      <div class="notice-card__text">
+        <strong>🌱 Now Enrolling</strong>
+        Fall 2025 spots filling fast — all 3 locations
+      </div>
+    </div>
+    <div class="notice-card">
+      <div class="notice-card__text">
+        <strong>🎉 Open House</strong>
+        May 15th · Come see our campuses!
+      </div>
+    </div>
+    <div class="notice-card">
+      <div class="notice-card__text">
+        <strong>⭐ 4.9 / 5 Rating</strong>
+        Trusted by 500+ Bay Area families
+      </div>
+    </div>
+    <div class="notice-card">
+      <div class="notice-card__text">
+        <strong>📞 Questions?</strong>
+        (510) 865-5901 · Mon–Fri 7 AM–6 PM
+      </div>
+    </div>
+  </div>
+</div>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="container">
-    <div class="grid-2">
-      <div class="hero__text">
-        <div class="label-pill">🪄 Nurturing Minds Since 2003</div>
-        <h1 class="display">Where little<br>minds bloom<br>every single day</h1>
-        <p class="body-lg">Play-based learning for ages 6 weeks – 5 years at our 3 Bay Area locations.</p>
-        <div class="btn-group">
-          <a href="contact.html" class="btn btn-primary">Book a Tour →</a>
-          <a href="contact.html" class="btn btn-secondary">Join Waitlist</a>
-        </div>
-        <div class="hero__social-proof">
-          <div class="hero__avatars">
-            <span>👤</span><span>👤</span><span>👤</span>
-          </div>
-          +500 families trust us
-        </div>
-      </div>
-      <div class="hero__image-wrap">
-        <div style="background:var(--color-bg-cream);border-radius:var(--radius-2xl);width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;font-size:6rem;">🧒</div>
-        <div class="hero__badge hero__badge--tl">⭐ 4.9 Rating · 500+ Families</div>
-        <div class="hero__badge hero__badge--br">🌱 Open Enrollment 2025–26</div>
-      </div>
+
+<!-- HERO VIDEO -->
+<div class="hero-video-wrap">
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="content/images/hero-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+<!-- HERO TEXT -->
+<section class="hero-text-section">
+  <div class="container hero-text-inner">
+    <div class="label-pill">🪄 Nurturing Minds Since 2003</div>
+    <h1 class="display">Where little minds bloom every single day</h1>
+    <p class="body-lg">Play-based learning for ages 6 weeks – 5 years at our 3 Bay Area locations.</p>
+    <div class="btn-group">
+      <a href="contact.html" class="btn btn-primary">Book a Tour →</a>
+      <a href="contact.html" class="btn btn-secondary">Join Waitlist</a>
     </div>
   </div>
 </section>
@@ -95,7 +130,7 @@
   <div class="container">
     <div class="section-header">
       <div class="label-pill">🪄 Our Programs</div>
-      <h2 class="heading-1">Programs that nurture<br>joyful growth</h2>
+      <h2 class="heading-1">Programs that nurture joyful growth</h2>
       <p class="body-lg">Play-based learning designed for every stage of early childhood.</p>
     </div>
     <div class="cards-row">
@@ -139,7 +174,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="card__image-placeholder" style="background:rgba(255,209,102,0.2);">📚</div>
+        <div class="card__image-placeholder" style="background:var(--color-accent-yellow);">📚</div>
         <div class="card__body">
           <div class="card__label">Ages 4 – 5 years</div>
           <div class="card__title">Pre-Kindergarten</div>
@@ -164,7 +199,7 @@
     <div class="grid-2">
       <div>
         <div class="label-pill">🪄 Why We're Different</div>
-        <h2 class="heading-2">A school that<br>feels like home</h2>
+        <h2 class="heading-2">A school that feels like home</h2>
         <p class="body-lg" style="margin-top:var(--space-5);">Low teacher-to-child ratios, rich play environments, and a curriculum rooted in child development research — all in a space where every child is known by name.</p>
         <ul class="checklist">
           <li>Reggio-inspired learning environments</li>
@@ -176,7 +211,7 @@
         <a href="about.html" class="btn btn-primary">Learn More About Us →</a>
       </div>
       <div class="why-us__image">
-        <div class="why-us__image-placeholder">🏫</div>
+        <img src="content/images/gallery/lscc_b49ada_b95d83e225c24.jpg" alt="why image" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;">
         <div class="stat-badge stat-badge--tl">
           <span class="stat-badge__icon">👶</span>
           <div class="stat-badge__text">
@@ -227,43 +262,43 @@
   <div class="container">
     <div class="section-header--center">
       <div class="label-pill">🪄 Three Bay Area Locations</div>
-      <h2 class="heading-1">Find the school<br>nearest you</h2>
+      <h2 class="heading-1">Find the school nearest you</h2>
     </div>
     <div class="grid-3">
       <div class="location-card">
-        <div class="location-card__image-placeholder" style="background:var(--color-primary-light);">🏫</div>
-        <div class="location-card__body">
-          <span class="status-pill status-pill--open">✓ Enrolling Now</span>
-          <h3 class="heading-4">Little Seeds Children's Center</h3>
-          <div class="location-card__meta">
-            <span>📍 2055 Santa Clara Ave, Alameda</span>
-            <span>⏰ Ages 12mo – 5 years · 7am–6pm</span>
-          </div>
-          <a href="school.html" class="btn btn-secondary btn-sm">View School →</a>
-        </div>
-      </div>
-      <div class="location-card">
-        <div class="location-card__image-placeholder" style="background:var(--color-secondary-light);">🏫</div>
+        <div class="img-placeholder" style="background:var(--color-primary-light,#FFF1E4);">🏫</div>
         <div class="location-card__body">
           <span class="status-pill status-pill--waitlist">Waitlist Open</span>
-          <h3 class="heading-4">Peter Pan Academy</h3>
+          <h3 class="heading-4">Little Seeds Children's Center</h3>
           <div class="location-card__meta">
-            <span>📍 Alameda, CA</span>
-            <span>⏰ Ages 2 – 5 years · 7am–6:30pm</span>
+            <span>📍 2055 Santa Clara Ave, Alameda, CA 94501</span>
+            <span>👶 Ages 12 months – 5 years</span>
           </div>
-          <a href="school.html" class="btn btn-secondary btn-sm">View School →</a>
+          <a href="little-seeds-childrens-center.html" class="btn btn-secondary btn-sm">View School →</a>
         </div>
       </div>
       <div class="location-card">
-        <div class="location-card__image-placeholder" style="background:var(--color-tertiary-light);">🏫</div>
+        <div class="img-placeholder" style="background:var(--color-secondary-light,#FFF1E4);">🏫</div>
+        <div class="location-card__body">
+          <span class="status-pill status-pill--open">✓ Enrolling Now</span>
+          <h3 class="heading-4">Peter Pan Academy</h3>
+          <div class="location-card__meta">
+            <span>📍 1900 Grand St, Alameda, CA 94501</span>
+            <span>👶 Ages 2 – 5 years</span>
+          </div>
+          <a href="peter-pan-academy.html" class="btn btn-secondary btn-sm">View School →</a>
+        </div>
+      </div>
+      <div class="location-card">
+        <div class="img-placeholder" style="background:var(--color-tertiary-light,#FFF1E4);">🏫</div>
         <div class="location-card__body">
           <span class="status-pill status-pill--open">✓ Enrolling Now</span>
           <h3 class="heading-4">Peter Pan Preschool</h3>
           <div class="location-card__meta">
-            <span>📍 Alameda, CA</span>
-            <span>⏰ Ages 3 – 5 years · 7am–6pm</span>
+            <span>📍 715 Haight Ave, Alameda, CA 94501</span>
+            <span>👶 Ages 3 – 5 years</span>
           </div>
-          <a href="school.html" class="btn btn-secondary btn-sm">View School →</a>
+          <a href="peter-pan-preschool.html" class="btn btn-secondary btn-sm">View School →</a>
         </div>
       </div>
     </div>
@@ -275,7 +310,7 @@
   <div class="container">
     <div class="section-header--center">
       <div class="label-pill">🪄 What Families Say</div>
-      <h2 class="heading-1">Trusted by families<br>across the Bay Area</h2>
+      <h2 class="heading-1">Trusted by families across the Bay Area</h2>
     </div>
     <div class="grid-3">
       <div class="testimonial-card">
@@ -326,30 +361,33 @@
       <a href="blog.html" class="btn btn-secondary">View All Posts →</a>
     </div>
     <div class="grid-3">
-      <div class="blog-card">
-        <div class="blog-card__image-placeholder" style="background:var(--color-primary-light);">📝</div>
+      <a href="blog/10-childcare-center-benefits-for-families.html" class="blog-card">
+        <div class="img-placeholder" style="background:var(--color-primary-light,#FFF1E4);font-size:3rem;">📝</div>
         <div class="blog-card__body">
           <span class="tag tag--orange">Curriculum</span>
-          <div class="blog-card__title">How Play-Based Learning Prepares Kids for Kindergarten</div>
-          <div class="blog-card__meta">May 1, 2025 · 4 min read</div>
+          <div class="blog-card__title">10 Childcare Center Benefits for Families</div>
+          <div class="blog-card__meta">April 21, 2026 · 5 min read</div>
+          <div class="blog-card__read">Read More →</div>
         </div>
-      </div>
-      <div class="blog-card">
-        <div class="blog-card__image-placeholder" style="background:var(--color-secondary-light);">👶</div>
+      </a>
+      <a href="blog/alameda-preschool-with-long-tenured-teachers.html" class="blog-card">
+        <div class="img-placeholder" style="background:var(--color-tertiary-light,#FFF1E4);font-size:3rem;">🎨</div>
         <div class="blog-card__body">
-          <span class="tag tag--blue">Development</span>
-          <div class="blog-card__title">5 Signs Your Toddler is Ready for Preschool</div>
-          <div class="blog-card__meta">Apr 22, 2025 · 3 min read</div>
+          <span class="tag tag--orange">School News</span>
+          <div class="blog-card__title">Alameda Preschool With Long Tenured Teachers</div>
+          <div class="blog-card__meta">April 20, 2026 · 5 min read</div>
+          <div class="blog-card__read">Read More →</div>
         </div>
-      </div>
-      <div class="blog-card">
-        <div class="blog-card__image-placeholder" style="background:var(--color-tertiary-light);">🎒</div>
+      </a>
+      <a href="blog/a-parent-s-guide-to-preschool-learning-goals.html" class="blog-card">
+        <div class="img-placeholder" style="background:var(--color-secondary-light,#FFF1E4);font-size:3rem;">🌿</div>
         <div class="blog-card__body">
-          <span class="tag tag--teal">Tips</span>
-          <div class="blog-card__title">Preparing Your Child for the First Week of School</div>
-          <div class="blog-card__meta">Apr 10, 2025 · 5 min read</div>
+          <span class="tag tag--teal">Parenting Tips</span>
+          <div class="blog-card__title">A Parent’s Guide to Preschool Learning Goals</div>
+          <div class="blog-card__meta">April 19, 2026 · 5 min read</div>
+          <div class="blog-card__read">Read More →</div>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </section>
@@ -376,7 +414,7 @@
     <div class="footer__grid">
       <div>
         <div class="footer__brand-name">🌱 <span>Little Seeds &amp; Peter Pan Schools</span></div>
-        <p class="footer__tagline">Play-based learning for every little seed to bloom — across all three Little Seeds &amp; Peter Pan Schools campuses. Bay Area's most trusted early childhood centers.</p>
+        <p class="footer__tagline">Play-based learning for every little seed to bloom — across all three Little Seeds & Peter Pan Schools campuses. Bay Area's most trusted early childhood centers.</p>
         <div class="footer__locations">
           <span>📍 Little Seeds Children's Center, Alameda</span>
           <span>📍 Peter Pan Academy, Alameda</span>
@@ -388,7 +426,7 @@
         <ul class="footer__links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="school.html">Our Schools</a></li>
+          <li><a href="little-seeds-childrens-center.html">Our Schools</a></li>
           <li><a href="curriculum.html">Curriculum</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -398,9 +436,9 @@
         <ul class="footer__links">
           <li><a href="#">Tuition Rates</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="#">Forms</a></li>
+          <li><a href="forms.html">Forms</a></li>
           <li><a href="#">Waitlist</a></li>
-          <li><a href="#">Photo Galleries</a></li>
+          <li><a href="gallery.html">Photo Galleries</a></li>
         </ul>
       </div>
       <div>
@@ -418,7 +456,7 @@
       </div>
     </div>
     <div class="footer__bottom">
-      <span>© 2025 Little Seeds &amp; Peter Pan Schools. All rights reserved.</span>
+      <span>© 2025 Little Seeds & Peter Pan Schools. All rights reserved.</span>
       <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a></span>
     </div>
   </div>

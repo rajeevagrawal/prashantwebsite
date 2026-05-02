@@ -1,0 +1,27 @@
+# ── Development source files ──────────────────────────────────
+# Client only needs the generated HTML/CSS/images to run the site
+generate.py
+templates/
+CLAUDE.md
+supabase-setup.sql
+
+# Content source (CSVs + Markdown) — kept locally for editing
+content/*.csv
+content/blog/
+
+# ── Credentials ───────────────────────────────────────────────
+supabase-config.js
+
+# ── Large binary files ────────────────────────────────────────
+# 57MB video — serve from CDN / YouTube / Vimeo in production
+content/images/hero-video.mp4
+
+# ── System / editor noise ─────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+.idea/

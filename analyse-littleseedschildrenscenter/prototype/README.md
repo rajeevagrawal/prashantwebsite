@@ -85,19 +85,74 @@ Key tokens:
 
 ---
 
+## Updating Content (CSV System)
+
+All text and images are managed in the `content/` folder.  
+After editing any CSV, run one command to regenerate all pages:
+
+```bash
+python3 generate.py
+```
+
+### How to change text
+
+Open `content/global.csv` for site-wide text (brand name, navigation, footer, CTAs)  
+or the page-specific CSV (e.g. `content/home.csv`) for page text.  
+Change the `value` column for any row, save, then run `python3 generate.py`.
+
+### How to add real photos
+
+1. Drop your image files into `content/images/`  
+   (e.g. `hero-classroom.jpg`, `school-alameda.jpg`)
+2. Open the relevant CSV (e.g. `content/home.csv`) and set the image key's value  
+   to the filename:  
+   ```
+   hero_image,hero-classroom.jpg
+   ```
+3. Run `python3 generate.py` — the page will now show the real photo.
+
+If a filename is blank or the file doesn't exist, an emoji placeholder is shown instead.
+
+### Content files
+
+| File | Controls |
+|---|---|
+| `content/global.csv` | Brand name, nav, footer, CTAs — shared across all pages |
+| `content/home.csv` | Homepage text |
+| `content/about.csv` | About Us page |
+| `content/school.csv` | Our Schools page |
+| `content/curriculum.csv` | Curriculum page |
+| `content/blog.csv` | Blog listing page |
+| `content/contact.csv` | Contact / Book a Tour page |
+| `content/images/` | Drop real photos here |
+| `templates/` | HTML templates with `{{key}}` placeholders — edit only if changing layout |
+
+---
+
 ## File Structure
 
 ```
 prototype/
-├── theme.css        ← Design tokens (edit here to change everything)
-├── styles.css       ← Component styles (uses theme.css variables)
-├── index.html       ← Homepage
-├── about.html       ← About Us
-├── school.html      ← Our Schools (location page)
-├── curriculum.html  ← Curriculum
-├── blog.html        ← Blog listing
-├── contact.html     ← Contact / Book a Tour
-└── README.md        ← This file
+├── theme.css           ← Design tokens (edit here to change everything)
+├── styles.css          ← Component styles (uses theme.css variables)
+├── generate.py         ← Run this to rebuild all pages from CSVs
+├── index.html          ← Homepage  (generated — edit home.csv, not this file)
+├── about.html          ← About Us
+├── school.html         ← Our Schools
+├── curriculum.html     ← Curriculum
+├── blog.html           ← Blog listing
+├── contact.html        ← Contact / Book a Tour
+├── content/
+│   ├── global.csv      ← Site-wide text tokens
+│   ├── home.csv        ← Homepage tokens
+│   ├── about.csv
+│   ├── school.csv
+│   ├── curriculum.csv
+│   ├── blog.csv
+│   ├── contact.csv
+│   └── images/         ← Drop real photos here
+├── templates/          ← HTML templates (layout only — don't edit text here)
+└── README.md
 ```
 
 ---
