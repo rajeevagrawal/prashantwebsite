@@ -12,9 +12,6 @@ content/blog/
 # ── Credentials ───────────────────────────────────────────────
 supabase-config.js
 
-# ── Large binary files ────────────────────────────────────────
-# 57MB video — serve from CDN / YouTube / Vimeo in production
-content/images/hero-video.mp4
 
 # ── System / editor noise ─────────────────────────────────────
 .DS_Store
