@@ -1,79 +1,59 @@
 # Little Seeds & Peter Pan Schools — Website Prototype
 
 Joyloo-inspired redesign prototype for **Little Seeds & Peter Pan Schools**.  
-Built with plain HTML + CSS (no framework, no build step).
+Built with plain HTML + CSS (no framework, no build step needed).
+
+---
+
+## Quick Start — Clone & Run
+
+### Step 1 — Clone the repo
+
+```bash
+git clone -b develop https://github.com/rajeevagrawal/prashantwebsite.git
+cd prashantwebsite/analyse-littleseedschildrenscenter/prototype
+```
+
+### Step 2 — Start the server
+
+#### Mac
+```bash
+python3 -m http.server 8080
+```
+
+#### Windows (Command Prompt or PowerShell)
+```cmd
+python -m http.server 8080
+```
+
+> Don't have Python? Download from [python.org](https://www.python.org/downloads/) — it takes 2 minutes.  
+> Alternatively, if you have Node.js: `npx serve .`
+
+### Step 3 — Open in browser
+
+[http://localhost:8080](http://localhost:8080)
+
+Navigate between pages using the top nav bar.  
+Press `Ctrl + C` in the terminal to stop the server.
 
 ---
 
 ## Pages
 
-| Page | File |
+| Page | URL |
 |---|---|
-| Homepage | `index.html` |
-| About Us | `about.html` |
-| Our Schools | `school.html` |
-| Curriculum | `curriculum.html` |
-| Blog | `blog.html` |
-| Contact / Book a Tour | `contact.html` |
-
----
-
-## How to Run Locally
-
-### Mac
-
-**Option 1 — Python (recommended, no install needed)**
-```bash
-cd prototype
-python3 -m http.server 8080
-```
-Then open your browser at: [http://localhost:8080](http://localhost:8080)
-
-**Option 2 — Node.js (if installed)**
-```bash
-cd prototype
-npx serve .
-```
-Then open the URL shown in the terminal.
-
----
-
-### Windows
-
-**Option 1 — Python (recommended)**
-
-1. Check if Python is installed:
-   ```cmd
-   python --version
-   ```
-   If not installed, download from [python.org](https://www.python.org/downloads/)
-
-2. Open **Command Prompt** or **PowerShell**, navigate to the prototype folder:
-   ```cmd
-   cd path\to\prototype
-   python -m http.server 8080
-   ```
-   Then open your browser at: [http://localhost:8080](http://localhost:8080)
-
-**Option 2 — Node.js (if installed)**
-```cmd
-cd path\to\prototype
-npx serve .
-```
-
-**Option 3 — VS Code Live Server (easiest for non-developers)**
-1. Install [VS Code](https://code.visualstudio.com/)
-2. Install the **Live Server** extension (by Ritwick Dey)
-3. Open the `prototype` folder in VS Code
-4. Right-click `index.html` → **Open with Live Server**
-5. Browser opens automatically
+| Homepage | http://localhost:8080/index.html |
+| About Us | http://localhost:8080/about.html |
+| Our Schools | http://localhost:8080/school.html |
+| Curriculum | http://localhost:8080/curriculum.html |
+| Blog | http://localhost:8080/blog.html |
+| Contact / Book a Tour | http://localhost:8080/contact.html |
 
 ---
 
 ## Stopping the Server
 
-- **Mac / Windows terminal:** Press `Ctrl + C`
-- **VS Code Live Server:** Click **Port: 5500** in the bottom status bar → Stop
+Press **`Ctrl + C`** in the terminal window.
 
 ---
 
