@@ -1,6 +1,5 @@
 # ── Development source files ──────────────────────────────────
 # Client only needs the generated HTML/CSS/images to run the site
-admin/
 templates/
 CLAUDE.md
 supabase-setup.sql
