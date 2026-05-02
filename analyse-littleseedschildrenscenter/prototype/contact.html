@@ -79,7 +79,7 @@
       <div>
         <h3 class="heading-3">Choose a Location</h3>
 
-        <div class="contact-loc-card selected">
+        <div class="contact-loc-card selected" data-map="https://maps.google.com/maps?q=2055+Santa+Clara+Ave,+Alameda,+CA+94501&output=embed">
           <div>
             <strong>Little Seeds Children's Center</strong>
             <div class="body-sm">2055 Santa Clara Ave, Alameda, CA 94501</div>
@@ -87,7 +87,7 @@
           </div>
         </div>
 
-        <div class="contact-loc-card">
+        <div class="contact-loc-card" data-map="https://maps.google.com/maps?q=1900+Grand+St,+Alameda,+CA+94501&output=embed">
           <div>
             <strong>Peter Pan Academy</strong>
             <div class="body-sm">1900 Grand St, Alameda, CA 94501</div>
@@ -95,7 +95,7 @@
           </div>
         </div>
 
-        <div class="contact-loc-card">
+        <div class="contact-loc-card" data-map="https://maps.google.com/maps?q=715+Haight+Ave,+Alameda,+CA+94501&output=embed">
           <div>
             <strong>Peter Pan Preschool</strong>
             <div class="body-sm">715 Haight Ave, Alameda, CA 94501</div>
@@ -173,10 +173,10 @@
   <div class="container">
     <h3 class="heading-3 text-center">Find Us</h3>
     <div style="border-radius:var(--radius-lg); overflow:hidden; height:400px;">
-      <iframe
+      <iframe id="contact-map"
         src="https://maps.google.com/maps?q=2055+Santa+Clara+Ave,+Alameda,+CA+94501&output=embed"
         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" title="Little Seeds Children's Center">
+        referrerpolicy="no-referrer-when-downgrade" title="School Location">
       </iframe>
     </div>
   </div>
@@ -237,10 +237,12 @@
 </footer>
 
 <script>
+const mapFrame = document.getElementById('contact-map');
 document.querySelectorAll('.contact-loc-card').forEach(card => {
   card.addEventListener('click', () => {
     document.querySelectorAll('.contact-loc-card').forEach(c => c.classList.remove('selected'));
     card.classList.add('selected');
+    if (card.dataset.map) mapFrame.src = card.dataset.map;
   });
 });
 </script>
